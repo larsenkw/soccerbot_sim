@@ -16,3 +16,6 @@ mono_crash.*.json
 
 # Keep Godot app from pushing
 Godot.app*
+
+# Do not sync development notes
+notes/*

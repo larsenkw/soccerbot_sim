@@ -18,4 +18,4 @@ mono_crash.*.json
 Godot.app*
 
 # Do not sync development notes
-notes/*
+misc/*

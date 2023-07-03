@@ -5,7 +5,3 @@
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
-
-[node name="Sprite2D2" type="Sprite2D" parent="ParallaxLayer"]
-
-[node name="Sprite2D3" type="Sprite2D" parent="ParallaxLayer"]

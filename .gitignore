@@ -19,3 +19,6 @@ Godot.app*
 
 # Do not sync development notes
 misc/*
+
+# Mac files
+.DS_store

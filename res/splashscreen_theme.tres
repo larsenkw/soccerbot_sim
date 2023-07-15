@@ -1,0 +1,16 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://dvnjdy81ucqje"]
+
+[ext_resource type="StyleBox" uid="uid://d1svm40dsni8v" path="res://splashscreen_button_hover.tres" id="1_uoesb"]
+[ext_resource type="StyleBox" uid="uid://dxtvjm1iw7dfg" path="res://splashscreen_button_normal.tres" id="2_bx2gf"]
+[ext_resource type="FontFile" uid="uid://bcppkusoxsi1v" path="res://fonts/moby.regular.otf" id="3_oihyj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vv12g"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[resource]
+default_font = ExtResource("3_oihyj")
+Button/styles/hover = ExtResource("1_uoesb")
+Button/styles/normal = ExtResource("2_bx2gf")
+Button/styles/pressed = ExtResource("2_bx2gf")
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/styles/normal = SubResource("StyleBoxFlat_vv12g")
